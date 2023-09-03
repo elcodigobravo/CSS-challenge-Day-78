@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.continer{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #3498db;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  background: #fff;
+  left: 100px;
+  font-size: 18px;
+  line-height: 58px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-1 {
+  top: 80px;
+}
+.button-1:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 6px 5px -3px rgba(0,0,0,0.57);
+}
+
+.button-2 {
+  top: 170px;
+}
+.button-2:hover {
+  transform: scale(1.04);
+  box-shadow: 5px 6px 5px -1px rgba(0,0,0,0.57);
+}
+
+.button-3 {
+  top: 260px;
+}
+.button-3:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 6px 14px 6px rgba(0,0,0,0.43);
+}
